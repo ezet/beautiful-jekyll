@@ -44,15 +44,15 @@ avatar: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Lars Kristian Dahl
-  email: "larsdal@gmail.com"
+  email: lars.dahl at gmail.com
   facebook: larskdahl  # eg. daattali
   github: ezet    # eg. daattali
-  twitter: yourname   # eg. daattali
+  twitter: larskristiand   # eg. daattali
   reddit: ezet    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
+  linkedin: lars-kristian-dahl-47b0479b  # eg. daattali
   xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
+  stackoverflow: 463277/ezet  # eg. "3943160/daattali"
   snapchat: yourname  # eg. daattali
   instagram: yourname # eg. daattali
   youtube: yourlink   # eg. user/daattali or channel/daattali
@@ -64,13 +64,13 @@ footer-links-active:
   rss: false
   facebook: true
   email: true
-  twitter: true
+  twitter: false
   google-plus: false
   github: true
   reddit: false
-  linkedin: true
+  linkedin: false
   xing: false
-  stackoverflow: false
+  stackoverflow: true
   snapchat: false
   instagram: false
   youtube: false
@@ -90,7 +90,7 @@ share-links-active:
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "ezet.github.io"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -112,7 +112,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/Oslo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
