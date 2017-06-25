@@ -7,17 +7,16 @@ published: true
 
 This page describes some of my most notable personal projects and open source contributions.
 
-## [EveLib.NET](https://github.com/ezet/evelib) (.NET, C#)
+## [EveLib](https://github.com/ezet/evelib) (.NET, C#)
 
 EveLib is an open source library for accessing the Eve Online API, CREST, and many other popular Eve Online APIs. I provides a common API to access all the most notable REST APIs.
 It is availabe on NuGet, has been well recieved by the Eve Online Community, and has an active userbase and several thousand downloads.
 
 ### Features
 
-* Fully asynchronous using TAP
-* Thread safe
-* XML configuration through app.config.
-* Access to all popular APIs through one library.
+* Fully asynchronous using Task-based Asynchronous Pattern (TAP).
+* XML configuration.
+* Common API surface for all popular APIs.
 * Provides caching for CCP API requests.
 * Modular and open source; you can easily change the caching, serialization or any other part of the library.
 * A comprehensive set of unit tests, including static xml samples for calls requiring authentication.
